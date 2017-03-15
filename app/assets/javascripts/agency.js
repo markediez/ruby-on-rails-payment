@@ -1,3 +1,4 @@
+require 'bootstrap';
 // Agency Theme JavaScript
 
 (function($) {
