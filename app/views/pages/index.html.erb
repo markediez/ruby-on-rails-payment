@@ -86,38 +86,45 @@
 							<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
 					</div>
 			</div>
-			<div class="row" id="roadmap">
+			<div class="row roadmap" id="roadmap">
 				<div class="col-md-2"></div>
 				<div class="col-md-8 text-center">
 					<%= image_tag("marketing/FlagUPmail.png", class:"img-responsive", alt:"Workflow") %>
 				</div>
+				<div class="col-md-2"></div>
 			</div>
 		</div>
-		<div class="col-md-3"></div>
-		<form id="payment-form" class="col-md-6">
-			<label>
-			<input name="cardholder-name" class="field is-empty" onblur="isTheFieldEmpty(this, document.getElementById('name_help'))" placeholder="Jane Doe" />
-			<span><span>Name</span></span>
-			</label>
-			<label>
-				<input class="field is-empty" type="tel" placeholder="(123) 456-7890" onblur="isPhoneOk(this, document.getElementById('phone_help'))" />
-				<span><span>Phone</span></span>
-			</label>
-			<label>
-				<input class="field is-empty" placeholder="info@flagupmail.com" onblur="isEmailOk(this, document.getElementById('email_help'))"/>
-				<span><span>Email</span></span>
-			</label>
-			<label>
-				<div id="card-element" class="field is-empty"></div>
-				<span><span>Card</span></span>
-			</label>
-			<button type="submit">Pay $7.99</button>
-			<div class="outcome">
-				<div class="error" id="email_help"></div>
-				<div class="success">
-					Success! Your Stripe token is <span class="token"></span>
-				</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3"></div>
+				<form id="payment-form" class="col-md-6">
+					<label>
+					<input name="cardholder-name" class="field is-empty" onblur="isTheFieldEmpty(this, document.getElementById('name_help'))" placeholder="Jane Doe" />
+					<span><span>Name</span></span>
+					</label>
+					<label>
+						<input class="field is-empty" type="tel" placeholder="(123) 456-7890" onblur="isPhoneOk(this, document.getElementById('phone_help'))" />
+						<span><span>Phone</span></span>
+					</label>
+					<label>
+						<input class="field is-empty" placeholder="info@flagupmail.com" onblur="isEmailOk(this, document.getElementById('email_help'))"/>
+						<span><span>Email</span></span>
+					</label>
+					<label>
+						<div id="card-element" class="field is-empty"></div>
+						<span><span>Card</span></span>
+					</label>
+					<button type="submit">Pay $7.99</button>
+					<div class="outcome">
+						<div class="error" id="email_help"></div>
+						<div class="success" id="email_help">
+							Success! Your Stripe token is <span class="token"></span>
+						</div>
+					</div>
+				</form>	
+				<div class="col-md-3"></div>
 			</div>
-		</form>	
+		</div>
+		
 	</section>
 

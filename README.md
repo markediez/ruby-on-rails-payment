@@ -15,8 +15,7 @@
 * gem 'jquery-easing-rails', '~> 0.0.2'
 
 
-
---
+# -
 
 This README would normally document whatever steps are necessary to get the
 application up and running.

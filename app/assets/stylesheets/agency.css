@@ -704,3 +704,12 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #EE7D4D;
 }
+
+/* Extra */
+.roadmap {
+  padding: 150px 0;
+}
+.img-responsive {
+    padding: 10px;
+    background-color: black;
+}

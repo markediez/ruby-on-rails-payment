@@ -40,7 +40,7 @@ gem 'coffee-rails', '~> 4.2'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
-# gem 'rails-asset-jqueryui'
+gem 'rails-asset-jqueryui'
 gem 'jquery-easing-rails', '~> 0.0.2'
 
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

@@ -5,6 +5,7 @@ body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 .text-muted {
   color: #777777;
 }
@@ -31,6 +32,8 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+}
+
 }
 .img-centered {
   margin: 0 auto;
@@ -703,4 +706,12 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #EE7D4D;
+}
+
+.roadmap {
+  padding: 150px 0;
+}
+.img-responsive {
+    padding: 10px;
+    background-color: black;
 }
