@@ -4,9 +4,12 @@
 ### I get issues with the javascript when trying to use it on rails. 
 ### I believe the issues resides with one of the following
 
-* 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+### * <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-*	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+### * <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+### These two are used in the index.html of the fum_website directory. 
+
+--
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
