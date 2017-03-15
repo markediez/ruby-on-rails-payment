@@ -9,6 +9,13 @@
 ### * <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 ### These two are used in the index.html of the fum_website directory. 
 
+# Things I have tried added the following to my gemfile
+* gem 'jquery-rails'
+* gem 'jquery-ui-rails'
+* gem 'jquery-easing-rails', '~> 0.0.2'
+
+
+
 --
 
 This README would normally document whatever steps are necessary to get the
