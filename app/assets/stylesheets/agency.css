@@ -1,3 +1,4 @@
+@import 'bootstrap';
 
 /*1070b2 blue*/
 /*EE7D4D orange */
@@ -186,7 +187,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-  background-image: url('../img/fum_logo/the_city.png');
+  background-image: url('fum_logo/the_city.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -515,7 +516,7 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
-  background-image: url('../img/map-image.png');
+  background-image: url('/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
 }
