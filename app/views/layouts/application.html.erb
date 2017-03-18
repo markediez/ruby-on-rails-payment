@@ -17,23 +17,10 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
 	<%= csrf_meta_tags %>
-
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-    <%= stylesheet_link_tag    'application', media:'all', 'data-turbolinks-track': 'reload' %>
-
-    <!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<!-- Plugin JavaScript -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-	<!-- Stripe -->
-	<script src="https://js.stripe.com/v3/"></script>
-
+  <%= stylesheet_link_tag    'application', media:'all', 'data-turbolinks-track': 'reload' %>
 	<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-	
+	<%= stripe_javascript_tag %>
+
 </head>
 
 <body id="page-top" class="index">
@@ -75,9 +62,9 @@
 						</li>
 				</ul>
 			</div>
-		</div>		
+		</div>
 	</nav>
-	
+
 	<!-- Header -->
 	<header>
 			<div class="container">
@@ -88,10 +75,10 @@
 					</div>
 			</div>
 	</header>
-  	
+
   	<%= yield %>
 </body>
 
 
-	
+
 </html>
