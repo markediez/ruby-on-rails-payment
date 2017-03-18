@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 # Heruko should use this this version of ruby
-ruby '2.4.0'
+ruby '2.3.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
 
@@ -21,15 +21,16 @@ gem 'pg', group: :production
 gem 'rails_12factor', group: :production
 
 # add twitter bootstrap
-gem 'bootstrap' 
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'sass-rails', '>= 3.2'
 
 # add stripe
-gem 'stripe'
+gem 'stripe-rails'
+
+gem 'rails-assets-tether', '>= 1.1.0'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
